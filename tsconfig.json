@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Target modern JavaScript (ES6)
+    "module": "commonjs",                   // Module system (CommonJS for Node.js)
+    "strict": true,                         // Enable all strict type-checking options
+    "esModuleInterop": true,                // Enables compatibility between CommonJS and ES modules
+    "skipLibCheck": true,                   // Skip type checking of declaration files (for faster compilation)
+    "forceConsistentCasingInFileNames": true, // Ensures file names are case-consistent
+    "outDir": "./dist",                     // Output compiled JavaScript to the "dist" folder
+    "rootDir": "./src",                     // The root folder for the TypeScript files
+    "moduleResolution": "node",             // Resolve modules like Node.js (e.g., support node_modules)
+    "resolveJsonModule": true,              // Allow importing JSON files
+    "noImplicitAny": true,                  // Prevent variables from being implicitly of type `any`
+    "noUnusedLocals": true,                 // Report unused local variables
+    "noUnusedParameters": true,             // Report unused function parameters
+    "downlevelIteration": true,             // Allow iteration over arrays and other iterable objects in ES5/ES6
+    "lib": ["es6", "dom"]                   // Use ES6 and DOM library for compatibility with modern JavaScript
+  },
+  "include": [
+    "src/**/*"                             // Include all TypeScript files in the "src" folder
+  ],
+  "exclude": [
+    "node_modules",                        // Exclude node_modules from the compilation
+    "dist"                                 // Exclude the compiled JavaScript files
+  ]
+}
+

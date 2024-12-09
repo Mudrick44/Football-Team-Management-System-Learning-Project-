@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Player_1 = require("../Player");
-var Team_1 = require("../Team");
+var Player_1 = require("../src/Player");
+var Team_1 = require("../src/Team");
 // Create some players
 var player1 = new Player_1.Player("Lionel Messi", "Forward");
 var player2 = new Player_1.Player("Cristiano Ronaldo", "Forward");
