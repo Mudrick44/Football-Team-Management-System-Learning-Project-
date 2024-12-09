@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2015",                          /* Use ES2015+ for the emitted JavaScript */
+    "lib": ["es2015", "dom"],                            /* Include ES2015 runtime features */
+    "module": "commonjs",                         /* Specify module system */
+    "esModuleInterop": true,                      /* Enable compatibility with CommonJS modules */
+    "forceConsistentCasingInFileNames": true,     /* Ensure consistent casing in file names */
+    "strict": true,                               /* Enable strict type checking */
+    "skipLibCheck": true,                         /* Skip type checking for .d.ts files */
+    "noUnusedLocals": true,                       /* Raise error for unused local variables */
+    "noUnusedParameters": true,                   /* Raise error for unused parameters */
+    "noImplicitReturns": true,                    /* Report errors for functions without return statements */
+    "noFallthroughCasesInSwitch": true,           /* Report errors for fall-through cases in switch statements */
+    "resolveJsonModule": true,                    /* Allow importing JSON modules */
+    "moduleResolution": "node",                   /* Use Node.js module resolution strategy */
+    "allowSyntheticDefaultImports": true,         /* Allow default imports for modules without a default export */
+    "skipDefaultLibCheck": true                   /* Skip type checking of default libraries */
+  }
+}
