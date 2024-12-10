@@ -25,7 +25,7 @@ export class Team {
       return `Stats for ${Player.PlayerName}:
         Goals: ${Player.GoalScored}, 
         Assists: ${Player.Assists}, 
-        Yellow Cards: ${Player.Yellowcards}, 
+        Yellow Cards recieved: ${Player.Yellowcards}, 
         Red Cards: ${Player.RedCards}`;
     } else {
       return `The player ${PlayerName} was not found in the team!`;
